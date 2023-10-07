@@ -2,18 +2,19 @@ import { useRef, useState } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { Center, AccumulativeShadows, RandomizedLight, OrbitControls, Environment, Lightformer } from '@react-three/drei'
 import ChocolateModel from './Chocolate'
+import Model from './n64'
 import { easing } from 'maath'
 import CustomEffects from './Effects'
 
 export default function App() {
   return (
-    <Canvas shadows camera={{ position: [3, 0.8, 5], fov: 35 }}>
+    <Canvas shadows camera={{ position: [5, 0.8, 18], fov: 35 }}>
       <directionalLight position={[4, 7, 2]} intensity={3} />
 
       <CameraRig>
-        <group position={[0, -0.5, 0]}>
+        <group position={[0, -2, 0]}>
           <Center top>
-            <ChocolateModel />
+            <Model />
           </Center>
 
           <AccumulativeShadows temporal frames={100} color="purple" colorBlend={0.5} toneMapped={true} alphaTest={0.75} opacity={2} scale={12}>

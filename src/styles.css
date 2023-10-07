@@ -47,7 +47,13 @@ header {
   gap: 20px;
   font-size: 13px;
 }
-
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  /*font-weight: bold;*/
+  color: white;
+}
 footer {
   position: absolute;
   bottom: 7%;
@@ -58,21 +64,39 @@ footer {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 300px) {
   header {
-    width: -10%;
-    font-size: 12px;
+    padding-left: 12%;
+    font-size: 50%;
   }
   body {
-    background-color: #456b56;
+    background-color: #583d7c;
   }
   .menu {
     flex-direction: column;
-    width: -10%;
-    font-size: 9px;
+    text-align: center;
+    padding-right: 12%;
+    font-size: 50%;
   }
   footer {
-    width: -10%;
-    font-size: 15px;
+    font-size: 50%;
+  }
+}
+@media only screen and (max-width: 1115px) {
+  header {
+    font-size: 90%;
+    padding-left: 12%;
+  }
+  body {
+    background-color: #583d7c;
+  }
+  .menu {
+    flex-direction: column;
+    text-align: center;
+    padding-right: 12%;
+    font-size: 90%;
+  }
+  footer {
+    font-size: 90%;
   }
 }

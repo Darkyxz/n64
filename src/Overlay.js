@@ -1,15 +1,24 @@
-export default function Overlay() {
+const Overlay = () => {
   return (
-    <div className="wrapper">
+    <nav className="wrapper">
       <header>
-        <h2>DARK</h2>
+        <a href="/">
+          <h2>DARK</h2>
+        </a>
         <ul className="menu">
-          <li>ABOUT US</li>
-          <li>PRODUCTS</li>
-          <li>GET IN TOUCH</li>
+          <li>
+            <a href="/about">ABOUT US</a>
+          </li>
+          <li>
+            <a href="/products">PRODUCTS</a>
+          </li>
+          <li>
+            <a href="/getintouch">GET IN TOUCH</a>
+          </li>
         </ul>
       </header>
       <footer>3D Models and assets.</footer>
-    </div>
+    </nav>
   )
 }
+export default Overlay
