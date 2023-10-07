@@ -1,7 +1,9 @@
 import { useRef, useState } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { Center, AccumulativeShadows, RandomizedLight, OrbitControls, Environment, Lightformer } from '@react-three/drei'
-import ChocolateModel from './Chocolate'
+import N64Model from './Chocolate'
+import BrowModel from './browser'
+import MarioModel from './mario'
 import Model from './n64'
 import { easing } from 'maath'
 import CustomEffects from './Effects'
@@ -15,6 +17,8 @@ export default function App() {
         <group position={[0, -2, 0]}>
           <Center top>
             <Model />
+            <BrowModel />
+            <MarioModel />
           </Center>
 
           <AccumulativeShadows temporal frames={100} color="purple" colorBlend={0.5} toneMapped={true} alphaTest={0.75} opacity={2} scale={12}>

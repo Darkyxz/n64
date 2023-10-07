@@ -46,7 +46,7 @@ header {
   display: flex;
   gap: 20px;
   font-size: 13px;
-  z-index: 2;
+  z-index: inherit;
 }
 a:link,
 a:visited,
