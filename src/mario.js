@@ -10,18 +10,18 @@ export default function MarioModel(props) {
         receiveShadow
         geometry={nodes.Cap__CapMT.geometry}
         material={materials.CapMT}
-        position={[2.25, 1.88, -0.96]}
-        rotation={[0.012, 0.5, 0]}
-        scale={0.0075}
+        position={[2.38, 1.8, -0.95]}
+        rotation={[0, -0.5, 0]}
+        scale={0.0085}
       />
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.CapHair__HairMT.geometry}
         material={materials.HairMT}
-        position={[2.25, 1.88, -0.96]}
-        rotation={[0.012, 0.5, 0]}
-        scale={0.0075}
+        position={[2.38, 1.72, -0.95]}
+        rotation={[0, -0.5, 0]}
+        scale={0.0085}
       />
       <mesh
         castShadow
@@ -29,7 +29,7 @@ export default function MarioModel(props) {
         geometry={nodes.Eyeball__EyeMT.geometry}
         material={materials['EyeBallMT.001']}
         position={[2.3, 1.72, -0.8]}
-        rotation={[0.012, 0.5, 0]}
+        rotation={[0, -0.5, 0]}
         scale={0.0085}
       />
       <mesh
@@ -38,7 +38,7 @@ export default function MarioModel(props) {
         geometry={nodes.Eyeball__EyePupilLeftMT.geometry}
         material={materials['EyePupilLeftMT.001']}
         position={[2.3, 1.72, -0.8]}
-        rotation={[0.012, 0.5, 0]}
+        rotation={[0, -0.5, 0]}
         scale={0.0085}
       />
       <mesh
@@ -47,7 +47,7 @@ export default function MarioModel(props) {
         geometry={nodes.Eyeball__EyePupilRightMT.geometry}
         material={materials['EyePupilRightMT.001']}
         position={[2.3, 1.72, -0.8]}
-        rotation={[0.012, 0.5, 0]}
+        rotation={[0, -0.5, 0]}
         scale={0.0085}
       />
       <mesh
@@ -56,7 +56,7 @@ export default function MarioModel(props) {
         geometry={nodes.EyelidLeft__EyeMT.geometry}
         material={materials['EyeMT.001']}
         position={[2.3, 1.72, -0.8]}
-        rotation={[0.012, 0.5, 0]}
+        rotation={[0, -0.5, 0]}
         scale={0.0085}
       />
       <mesh
@@ -65,7 +65,7 @@ export default function MarioModel(props) {
         geometry={nodes.EyelidRight__EyeMT.geometry}
         material={materials['EyeMT.001']}
         position={[2.3, 1.72, -0.8]}
-        rotation={[0.012, 0.5, 0]}
+        rotation={[0, -0.5, 0]}
         scale={0.0085}
       />
       <mesh
@@ -74,7 +74,7 @@ export default function MarioModel(props) {
         geometry={nodes.face__FaceMT.geometry}
         material={materials['FaceMT.001']}
         position={[2.3, 1.72, -0.8]}
-        rotation={[0.012, 0.5, 0]}
+        rotation={[0, -0.5, 0]}
         scale={0.0085}
       />
       <mesh
@@ -83,7 +83,7 @@ export default function MarioModel(props) {
         geometry={nodes.Mario__BodyMT.geometry}
         material={materials.BodyMT}
         position={[2.3, 1.72, -0.8]}
-        rotation={[0.012, 0.5, 0]}
+        rotation={[0, -0.5, 0]}
         scale={0.0085}
       />
       <mesh
@@ -92,7 +92,7 @@ export default function MarioModel(props) {
         geometry={nodes.mario_brow_l__HairMT.geometry}
         material={materials['HairFaceMT.001']}
         position={[2.3, 1.72, -0.8]}
-        rotation={[0.012, 0.5, 0]}
+        rotation={[0, -0.5, 0]}
         scale={0.0085}
       />
       <mesh
@@ -101,7 +101,7 @@ export default function MarioModel(props) {
         geometry={nodes.mario_brow_r__HairMT.geometry}
         material={materials['HairFaceMT.001']}
         position={[2.3, 1.72, -0.8]}
-        rotation={[0.012, 0.5, 0]}
+        rotation={[0, -0.5, 0]}
         scale={0.0085}
       />
       <mesh
@@ -110,7 +110,7 @@ export default function MarioModel(props) {
         geometry={nodes.mario_mustache__HairMT.geometry}
         material={materials['HairFaceMT.001']}
         position={[2.3, 1.72, -0.8]}
-        rotation={[0.012, 0.5, 0]}
+        rotation={[0, -0.5, 0]}
         scale={0.0085}
       />
       <mesh
@@ -119,7 +119,7 @@ export default function MarioModel(props) {
         geometry={nodes.mario_tongue__FaceMT.geometry}
         material={materials['FaceMT.001']}
         position={[2.3, 1.72, -0.8]}
-        rotation={[0.012, 0.5, 0]}
+        rotation={[0, -0.5, 0]}
         scale={0.0085}
       />
       <mesh
@@ -128,7 +128,7 @@ export default function MarioModel(props) {
         geometry={nodes.mario_tooth_bottom__FaceMT.geometry}
         material={materials['FaceMT.001']}
         position={[2.3, 1.72, -0.8]}
-        rotation={[0.012, 0.5, 0]}
+        rotation={[0, -0.5, 0]}
         scale={0.0085}
       />
       <mesh
@@ -137,7 +137,7 @@ export default function MarioModel(props) {
         geometry={nodes.mario_tooth_up__FaceMT.geometry}
         material={materials['FaceMT.001']}
         position={[2.3, 1.72, -0.8]}
-        rotation={[0.012, 0.5, 0]}
+        rotation={[0, -0.5, 0]}
         scale={0.0085}
       />
       <mesh
@@ -146,7 +146,7 @@ export default function MarioModel(props) {
         geometry={nodes.MarioHandL__HandMT.geometry}
         material={materials['HandMT.001']}
         position={[2.3, 1.72, -0.8]}
-        rotation={[0.012, 0.5, 0]}
+        rotation={[0, -0.5, 0]}
         scale={0.0085}
       />
       <mesh
@@ -155,7 +155,7 @@ export default function MarioModel(props) {
         geometry={nodes.MarioHandR__HandMT.geometry}
         material={materials['HandMT.001']}
         position={[2.3, 1.72, -0.8]}
-        rotation={[0.012, 0.5, 0]}
+        rotation={[0, -0.5, 0]}
         scale={0.0085}
       />
       <group position={[-8.391, 112.998, 0]}>
