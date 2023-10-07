@@ -46,6 +46,7 @@ header {
   display: flex;
   gap: 20px;
   font-size: 13px;
+  z-index: 2;
 }
 a:link,
 a:visited,
@@ -54,6 +55,7 @@ a:active {
   /*font-weight: bold;*/
   color: white;
 }
+
 footer {
   position: absolute;
   bottom: 7%;
@@ -78,6 +80,14 @@ footer {
     padding-right: 12%;
     font-size: 50%;
   }
+  a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
+    /*font-weight: bold;*/
+    color: white;
+  }
+
   footer {
     font-size: 50%;
   }
